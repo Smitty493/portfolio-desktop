@@ -1,0 +1,37 @@
+/* General style for navigation bar container */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; /* or use fixed if you want it to stick even on scrolling */
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    border: 3px solid #000;
+    background: #FDF9EE;
+    width: 562px;
+    height: 50px;
+}
+
+/* Styling for buttons or sections inside the navigation bar */
+.navbar-item {
+    flex: 1; /* distribute space equally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 3px solid #000;
+    background: #FDF9EE;
+    font-family: 'VT323';
+    font-size: 40px;
+    cursor: pointer; /* makes it look clickable */
+}
+
+.navbar-icon {
+    width: 41px;
+    height: 42px;
+    background-size: center/cover; /* This ensures it covers the entire div */
+    cursor: pointer;
+}

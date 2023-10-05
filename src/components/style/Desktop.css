@@ -1,0 +1,41 @@
+.background {
+background: #C2D3D3;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;  
+    width: 3%;        
+    height: 3%;           
+    margin-left: 1%;
+    padding: 10px;
+}
+
+.folder-image {
+    width: 105%;        
+    height: 105%;       
+}
+
+.icon-image {
+    width: 100%;        
+    height: 100%;       
+}
+
+.icon-container span {
+    font-family: 'VT323';
+    font-size: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    width: 190%;
+    padding-top: 10px;
+}
+
+.start-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10%;
+    margin-left: 2%;
+}
