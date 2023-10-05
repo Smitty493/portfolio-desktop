@@ -9,7 +9,7 @@ import './style/Desktop.css';
 
 function Desktop() {
   return (
-    <>
+    <div className="background"> {/* Applying the background class to a wrapping div */}
       <NavBar /> {/* New NavBar component */}
 
       {/* Existing Desktop components */}
@@ -29,7 +29,7 @@ function Desktop() {
           <img src={My_BlogSrc} alt="My Notes Icon" className="icon-image" />
           <span>My Notes</span>
       </div>
-    </>
+    </div>
   );
 }
 

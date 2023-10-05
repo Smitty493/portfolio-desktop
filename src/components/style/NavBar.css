@@ -3,35 +3,46 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute; /* or use fixed if you want it to stick even on scrolling */
+    position: absolute;
     bottom: 15px;
     left: 0;
     right: 0;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 10px; 
     border: 3px solid #000;
     background: #FDF9EE;
     width: 562px;
     height: 50px;
+    padding: 0 20px;
 }
 
 /* Styling for buttons or sections inside the navigation bar */
 .navbar-item {
-    flex: 1; /* distribute space equally */
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     border: 3px solid #000;
+    border-right: none;
     background: #FDF9EE;
     font-family: 'VT323';
     font-size: 40px;
-    cursor: pointer; /* makes it look clickable */
+    cursor: pointer;
 }
 
 .navbar-icon {
     width: 41px;
     height: 42px;
-    background-size: center/cover; /* This ensures it covers the entire div */
+    background-size: center/cover;
     cursor: pointer;
+    margin: 0 10px;
+}
+
+.work-button {
+    border-right: 3px solid #000;
+}
+
+.contact-button {
+    border-right: 3px solid #000;
 }

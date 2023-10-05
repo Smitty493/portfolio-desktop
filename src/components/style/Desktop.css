@@ -1,6 +1,9 @@
 .background {
-background: #C2D3D3;
+    background: #C2D3D3;
+    min-height: 100vh;  /* This ensures the container is at least the height of the viewport */
+    overflow: auto;     /* This will allow the content to overflow without squishing */
 }
+
 
 .icon-container {
     display: flex;
