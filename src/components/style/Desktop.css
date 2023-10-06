@@ -4,6 +4,9 @@
     overflow: auto;     /* This will allow the content to overflow without squishing */
 }
 
+.icons-wrapper {
+    margin-top: 60px;
+}
 
 .icon-container {
     display: flex;

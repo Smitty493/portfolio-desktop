@@ -1,0 +1,33 @@
+/* TopBar.css */
+.top-bar {
+    font-size: 24px; /* Adjust as needed */
+    font-family: 'VT323';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.battery-icon {
+    width: 30px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+.battery {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.date-time {
+    font-family: 'VT323';
+    font-size: 24px; /* Adjust as needed */
+}
